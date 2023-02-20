@@ -1,0 +1,32 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 426px;
+    }
+
+    .section-link {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-bg.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .section-link {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-bg-2.jpg);
+        }
+    }
+
+    .section-container {
+        max-width: 396px;
+    }
+
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .about-customers-item {
+        width: calc((100%-30px)/2);
+    }
+}
